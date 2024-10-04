@@ -24,12 +24,37 @@
     padding: 10px;
 }
 
-.Catagori {
+.All-Catagori{
     list-style-type: none;
+    transition: background-color .3s;
+}
+
+.All-Catagori:hover{
+    background-color: #04905f;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.Catagori-eliment li {
+    list-style-type: none;
+    border:solid #20bd86;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 8px;
+    background-color: #20bd86;
+}
+.Catagori-eliment a{
+    text-decoration: none;
+    color: black;
 }
 
 .Catagori-eliment {
     list-style-type: none;
+    position: absolute;
+    background-color: #dce0de;
+    padding: 8px;
+    border-radius: 8px;
+    
 }
 
 .pc-builder-btn {
